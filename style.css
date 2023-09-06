@@ -38,6 +38,11 @@ nav button{
     border-radius: 4px;
     margin-left: 10px;
     cursor: pointer;
+    transition: .6s all ease;
+
+}
+nav button:hover{
+    background: #000;
 }
  .language-btn{
     display: inline-flex;
