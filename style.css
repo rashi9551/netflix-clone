@@ -215,7 +215,7 @@ label::after{
 input[type="radio"]{
     display: none;
 }
-.discription .content{
+.accordion .content{
     background: #303030;
     text-align: left;
     padding: 0 20px;
@@ -223,13 +223,13 @@ input[type="radio"]{
     overflow: hidden;
     transition: max-height 0.5s,padding 0.5s ;
 }
-.discription input[type="radio"]:checked + label + .content{
+.accordion input[type="radio"]:checked + label + .content{
     max-height: 600px;
     padding: 30px 20px;
 
 
 }
-.discription input[type="radio"]:checked + label::after{
+.accordion input[type="radio"]:checked + label::after{
     transform: rotate(135deg);
 }
 
